@@ -1,0 +1,76 @@
+html {
+  /* initial setup */
+  font-size: 10px;
+
+  /* task 1 */
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0 auto;
+  border: 2px solid #575052;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  /* task 2 */
+  height: 50rem;
+  width: 50rem;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: #e62260;
+  background-color: #e7becb;
+  /* task 3 */
+  height: 10rem;
+  font-size: 5.2rem;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  color: #2b5c32;
+  /* task 4*/
+  font-size: 2.6rem;
+  height: 10%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  /* task 5 */
+  height: 30rem;
+}
+
+li {
+  color: #963629;
+  /* task 5 */
+  font-size: 2em;
+}
+
+.li1 {
+  background-color: antiquewhite;
+  /* task 5 */
+  height: 2.5em;
+}
+
+.li2 {
+  background-color: #e9d1b3;
+  /* task 5 */
+  height: 5em;
+}
+
+.li3 {
+  background-color: #d6a67a;
+  /* task 5 */
+  height: 7.5em;
+}
+
+.p1 {
+  background-color: #a7dfcc;
+}
+.p2 {
+  background-color: #afe2ae;
+}

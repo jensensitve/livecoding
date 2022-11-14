@@ -15,6 +15,12 @@ Jetzt wandeln wir alle "px" in relative Einheiten um. Bitte beachte, dass die Gr
 ### Ersteinrichtung
 Standardmäßig ist die Basisschriftgröße auf __16px__ eingestellt. Bitte ändere sie auf __10px__, bevor du mit den folgenden Aufgaben beginnst.
 
+```css
+body {
+    font-size: 10px;
+}
+```
+
 ### Aufgabe 1
 Gib `html` __100%__ der Ansichtsbreite und der Ansichtshöhe, indem du `vw` und `vh` benutzt
 

@@ -1,0 +1,37 @@
+h1 {
+  display: block;
+}
+h1 > span {
+  color: orange;
+}
+.shapes {
+  width: 15rem;
+  border: 2px dashed red;
+}
+.shapes div {
+  width: 4rem;
+  height: 4rem;
+  margin: 0.2rem;
+  border: 2px solid black;
+}
+.cl {
+  /* top-left | top-right | bottom-right | bottom-left */
+  /* (first radius values) / top-left-and-bottom-right | top-right-and-bottom-left */
+  border-radius: 50%;
+  background-color: yellow;
+}
+.sp {
+  background-color: green;
+}
+.shapes .rq {
+  width: 8rem;
+  background-color: blue;
+}
+/* DRY -> Don't repeat yourself */
+.shapes .tra {
+  width: 0;
+  height: 0;
+  border-top: 80px solid purple;
+  border-left: 40px solid red; /*transparent */
+  border-bottom: 0px solid blue; /*transparent */
+}
