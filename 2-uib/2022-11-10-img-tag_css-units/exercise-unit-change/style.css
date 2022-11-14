@@ -1,11 +1,21 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 10px;
+}
+
 body {
+  width: 50rem;
+  height: 50rem;
   margin: 0 auto;
-  border: 2px solid #575052;
+  border: 0.2rem solid #575052;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
 
 h1 {
+  height: 10rem;
+  font-size: 5.2rem;
   padding: 0;
   margin: 0;
   color: #e62260;
@@ -13,31 +23,38 @@ h1 {
 }
 
 p {
+  height: 10%;
+  font-size: 2.6rem;
   padding: 0;
   margin: 0;
   color: #2b5c32;
 }
 
 ul {
+  height: 30rem;
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
 li {
+  font-size: 2em;
   color: #963629;
 }
 
 .li1 {
   background-color: antiquewhite;
+  height: 2.5em;
 }
 
 .li2 {
   background-color: #e9d1b3;
+  height: 5em;
 }
 
 .li3 {
   background-color: #d6a67a;
+  height: 7.5em;
 }
 
 .p1 {
